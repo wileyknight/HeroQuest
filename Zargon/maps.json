@@ -1,0 +1,12 @@
+{
+    "Forsaken Tunnels of Xel-Xor" : {
+        "image" : "images/Forsaken_Tunnels_Of_Xor-Xel.png",
+        "start" : "A19",
+        "doors" : ["C14D15","C15U12","C18D0","C19U15","E12R13","F12L12","F19D0","G9D0","G10U5","G13D16","G14U13","I5R3","I10D14","I11U0","I13D16","I14U14","J5L5","L6D0","L7U3","S10D18","S11U0","U13R19","U16R22","V13L18","V16L21","X14D22","X15U19"],
+        "secrets" : ["R13D","T18D"],
+        "traps" : ["C13R","F16S","G8S","I5S","I16S","K5P","K7R","K13R","M13R","O7S","O15R","O18S","P18S","Q7S","Q12S","Q15R","Q18S","S13P","T13R","T16R"],
+        "monsters" : ["B11S","C11Z","D11S","E11Z","F7S","F17S","F18S","G5S","G7S","G16M","H5Z","H16S","J2Z","L4S","L6S","M15A","N13Z","Q8Z","S14S","T12S","T14S","U13S","V15Z","V17Z","W13S","W16D","X13S"],
+        "blocks" : ["A18","D19","F10","G6","H8","I12","J3","K3","M6","M14","N6","N14","U10","V19","X12"],
+        "furniture" : []
+    }
+}

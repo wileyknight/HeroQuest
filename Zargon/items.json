@@ -1,0 +1,502 @@
+{
+    "Heros" : {
+        "Barbarian Male" : {
+            "ico" : ["ico_barbarianMale.png","ico_barbarianMale-Off.png"],
+            "attack" : "3",
+            "defend" : "2",
+            "body" : "8",
+            "mind" : "2",
+            "weapon" : "Broadsword",
+            "armor" : ""
+        },
+        "Barbarian Female" : {
+            "ico" : ["ico_barbarianMale.png","ico_barbarianMale-Off.png"],
+            "attack" : "3",
+            "defend" : "2",
+            "body" : "8",
+            "mind" : "2",
+            "weapon" : "Broadsword",
+            "armor" : ""
+        },
+        "Dwarf" : {
+            "ico" : ["ico_barbarianMale.png","ico_barbarianMale-Off.png"],
+            "attack" : "2",
+            "defend" : "2",
+            "body" : "7",
+            "mind" : "3",
+            "weapon" : "Shortsword",
+            "armor" : ""
+        },
+        "Elf Male" : {
+            "ico" : ["ico_barbarianMale.png","ico_barbarianMale-Off.png"],
+            "attack" : "2",
+            "defend" : "2",
+            "body" : "6",
+            "mind" : "4",
+            "weapon" : "Shortsword",
+            "armor" : ""
+        },
+        "Elf Female" : {
+            "ico" : ["ico_elfFemale.png","ico_elfFemale-Off.png"],
+            "attack" : "2",
+            "defend" : "2",
+            "body" : "6",
+            "mind" : "4",
+            "weapon" : "Shortsword",
+            "armor" : ""
+        },
+        "Wizard" : {
+            "ico" : ["ico_wizard.png","ico_wizard-Off.png"],
+            "attack" : "1",
+            "defend" : "2",
+            "body" : "4",
+            "mind" : "6",
+            "weapon" : "Dagger",
+            "armor" : ""
+        },
+        "Bard" : {
+            "ico" : ["ico_bard.png","ico_bard-Off.png"],
+            "attack" : "2",
+            "defend" : "2",
+            "body" : "5",
+            "mind" : "4",
+            "weapon" : "Rapier",
+            "armor" : ""
+        }
+    },
+    "Spells" : {
+        "Courage" : {
+            "class" : "Fire",
+            "weilded" : "Wizard,Elf",
+            "use" : "Quest",
+            "description" : "This spell may be cast on any one hero, including yourself. The next time that hero attacks, they may roll 2 extra combat dice. The spell is broken the moment a monster is no longer in the hero's line of sight."
+        },
+        "Ball of Flame" : {
+            "class" : "Fire",
+            "weilded" : "Wizard,Elf",
+            "use" : "Quest",
+            "description" : "This spell may be cast on any one monster, enveloping it in a ball of fire. It inflicts 2 Body Points of damage. The monster then rolls 2 red dice. For each 5 or 6 rolled, the damage is reduced by 1 point."
+        },
+        "Fire of Wrath" : {
+            "class" : "Fire",
+            "weilded" : "Wizard,Elf",
+            "use" : "Quest",
+            "description" : "This spell may be cast on any one monster, blasting it with flames. It inflicts 1 Body Point of damage, unless the monster can immediatly roll a 5 or 6 using 1 red die."
+        },
+        "Sleep" : {
+            "class" : "Water",
+            "weilded" : "Wizard,Elf",
+            "use" : "Quest",
+            "description" : "This spell puts a monster into a deep sleep so it cannot move, attack, or defend itself. The spell can be broken at once or on a future turn by a monster rolling 1 red die for each of its Mind Points. If a 6 is rolled, the spell is broken. May not be used against mummies, zombies, or skeletons."
+        },
+        "Water of Healing" : {
+            "class" : "Water",
+            "weilded" : "Wizard,Elf",
+            "use" : "Quest",
+            "description" : "This spell may be cast on any one hero, including yourself. Contact with this revitalising water restores up to 4 lost Body Points but does not give a hero more than their starting number."
+        },
+        "Veil of Mist" : {
+            "class" : "Water",
+            "weilded" : "Wizard,Elf",
+            "use" : "Quest",
+            "description" : "This spell may be cast on any one hero, including yourself. On the hero's next move, they may move unseen through spaces that are occupied by monsters."
+        },
+        "Tempest" : {
+            "class" : "Air",
+            "weilded" : "Wizard,Elf",
+            "use" : "Quest",
+            "description" : "This spell creates a small whirlwind that envelops one monster of your choice. That monster then misses its next turn."
+        },
+        "Swift Wind" : {
+            "class" : "Air",
+            "weilded" : "Wizard,Elf",
+            "use" : "Quest",
+            "description" : "This spell may be cast on any one hero, including yourself. Its powerful burst of energy enables that hero to roll twice as many red dice as normal the next time they move."
+        },
+        "Genie" : {
+            "class" : "Air",
+            "weilded" : "Wizard,Elf",
+            "use" : "Quest",
+            "description" : "This spell conjures up a genie who does one of the following: opens any door on the board (revealing what lies beyond) or uses 5 combat dice to attack any monster within your line of sight."
+        },
+        "Pass Through Rock" : {
+            "class" : "Earth",
+            "weilded" : "Wizard,Elf",
+            "use" : "Quest",
+            "description" : "This spell may be cast on any one hero, including yourself. That hero may then move through walls on their next move. They may move through as many walls as their dice roll allows. Caution! There are shaded areas on each quest map that indicate solid rock. If a hero ends their move in one of these areas, they are trapped forever!"
+        },
+        "Rock Skin" : {
+            "class" : "Earth",
+            "weilded" : "Wizard,Elf",
+            "use" : "Quest",
+            "description" : "This spell may be cast on any one hero, including yourself. That hero may throw 1 extra combat die when defending. The spell is broken when the hero suffers 1 Body Point of damage."
+        },
+        "Heal Body" : {
+            "class" : "Earth",
+            "weilded" : "Wizard,Elf",
+            "use" : "Quest",
+            "description" : "This spell may be cast on any one hero, including yourself. Its magical power immediately restores up to 4 lost Body Points, but does not give a hero more than their starting number."
+        },
+        "Lullaby" : {
+            "class" : "Bard",
+            "weilded" : "Bard",
+            "use" : "Quest",
+            "description" : "This spell may be cast on any one monster. The target cannot move, attack, or defend. The spell can be broken at once or on the target's future turns by rolling 1 red die for each of the target's Mind Points. On a roll result of 6, the spell is broken. This spell has no effect on targets with 0 Mind Points."
+        },
+        "Healing Song" : {
+            "class" : "Bard",
+            "weilded" : "Bard",
+            "use" : "Quest",
+            "description" : "This spell may be cast on all heroes you can see, including yourself. Each affected hero restores up to 2 Body Points, not exceding their totals."
+        },
+        "Inspiring Tale" : {
+            "class" : "Bard",
+            "weilded" : "Bard",
+            "use" : "Quest",
+            "description" : "This spell may be cast on any one hero, excluding yourself. On that hero's next attack, they roll 1 additional Attack die. Regain this spell when any hero you can see, excluding yourself, rolls 2 white shields while defending."
+        }
+    },
+    "Equiptment" : [
+        {"Holy Water" : {
+            "class" : "Inventory",
+            "weilded" : "Any",
+            "use" : "once",
+            "cost" : "400",
+            "description" : "You may use the holy water instead of attacking. It kills any undead creature (skeleton, zombie, or mummy). Te card is then discarded after use."
+        }},
+        {"Longsword" : {
+            "class" : "Weapon",
+            "weilded" : "!Wizard",
+            "attack" : "3",
+            "use" : "Equipt",
+            "cost" : "350",
+            "hand" : "two",
+            "description" : "This long blade gives you the attack strength of 3 combat dice. Because of its length, the longsword enables you to attack diagonally. May not be used by the wizard."
+            
+        }},
+        {"Longsword" : {
+            "class" : "Weapon",
+            "weilded" : "!Wizard",
+            "attack" : "3",
+            "use" : "Equipt",
+            "cost" : "350",
+            "hand" : "two",
+            "description" : "This long blade gives you the attack strength of 3 combat dice. Because of its length, the longsword enables you to attack diagonally. May not be used by the wizard."
+            
+        }},
+        {"Broadsword" : {
+            "class" : "Weapon",
+            "weilded" : "!Wizard",
+            "attack" : "3",
+            "use" : "Equipt",
+            "cost" : "350",
+            "hand" : "one",
+            "description" : "This long blade gives you the attack strength of 3 combat dice. Because of its length, the longsword enables you to attack diagonally. May not be used by the wizard."
+            
+        }},
+        {"Shortsword" : {
+            "class" : "Weapon",
+            "weilded" : "!Wizard",
+            "attack" : "2",
+            "use" : "Equipt",
+            "cost" : "150",
+            "hand" : "one",
+            "description" : "This short sword gives you the attack strength of 2 combat dice. May not be used by the wizard."
+            
+        }},
+        {"Crossbow" : {
+            "class" : "Weapon",
+            "weilded" : "!Wizard",
+            "attack" : "3",
+            "use" : "Equipt",
+            "cost" : "350",
+            "hand" : "one",
+            "description" : "This long-range weapon gives you the attack strength of 3 combat dice. You may fire at any monster that you can see. However, you cannot fire at a monster that is adjacent to you. You have an unlimited supply of arrows. May not be used by the wizard."
+            
+        }},
+        {"Crossbow" : {
+            "class" : "Weapon",
+            "weilded" : "!Wizard",
+            "attack" : "3",
+            "use" : "Equipt",
+            "cost" : "350",
+            "hand" : "one",
+            "description" : "This long-range weapon gives you the attack strength of 3 combat dice. You may fire at any monster that you can see. However, you cannot fire at a monster that is adjacent to you. You have an unlimited supply of arrows. May not be used by the wizard."
+            
+        }},
+        {"Battle Axe" : {
+            "class" : "Weapon",
+            "weilded" : "!Wizard",
+            "attack" : "4",
+            "use" : "Equipt",
+            "cost" : "450",
+            "hand" : "two",
+            "description" : "This heavy, double-edged axe gives you the attack strength of 4 combat dice. You may not use a shield when usign this weapon. May not be used by the wizard."
+            
+        }},
+        {"Battle Axe" : {
+            "class" : "Weapon",
+            "weilded" : "!Wizard",
+            "attack" : "4",
+            "use" : "Equipt",
+            "cost" : "450",
+            "hand" : "two",
+            "description" : "This heavy, double-edged axe gives you the attack strength of 4 combat dice. You may not use a shield when usign this weapon. May not be used by the wizard."
+            
+        }},
+        {"Handaxe" : {
+            "class" : "Weapon",
+            "weilded" : "!Wizard",
+            "attack" : "2",
+            "use" : "Once",
+            "cost" : "200",
+            "hand" : "one",
+            "description" : "This handaxe allows you to roll 2 Attack dice. It can also be thrown at any monster in your line of sight but is lost once it is thrown. May not be used by the wizard."
+            
+        }},
+        {"Dagger" : {
+            "class" : "Weapon",
+            "weilded" : "Any",
+            "attack" : "1",
+            "use" : "Once",
+            "cost" : "25",
+            "hand" : "one",
+            "description" : "This sharp knife gives you teh attack strength of 1 combat die. A dagger can also be thrown at any monster you can see but is lost once it is thrown."
+            
+        }},
+        {"Shield" : {
+            "class" : "Armor",
+            "weilded" : "!Wizard",
+            "defend" : "+1",
+            "use" : "Equipt",
+            "cost" : "150",
+            "hand" : "one",
+            "description" : "This hand-held armor gives you 1 extra Defend die. May not be used with the battle axe or the staff. May not be used by the wizard."
+            
+        }},
+        {"Shield" : {
+            "class" : "Armor",
+            "weilded" : "!Wizard",
+            "defend" : "+1",
+            "use" : "Equipt",
+            "cost" : "150",
+            "hand" : "one",
+            "description" : "This hand-held armor gives you 1 extra Defend die. May not be used with the battle axe or the staff. May not be used by the wizard."
+            
+        }},
+        {"Shield" : {
+            "class" : "Armor",
+            "weilded" : "!Wizard",
+            "defend" : "+1",
+            "use" : "Equipt",
+            "cost" : "150",
+            "hand" : "one",
+            "description" : "This hand-held armor gives you 1 extra Defend die. May not be used with the battle axe or the staff. May not be used by the wizard."
+            
+        }},
+        {"Staff" : {
+            "class" : "Weapon",
+            "weilded" : "Any",
+            "attack" : "1",
+            "use" : "Equipt",
+            "cost" : "100",
+            "hand" : "two",
+            "description" : "This long, sturdy, wooden staff gives you the attack strength of 1 combat die. Because of it's length, the staff enables you to attack diagonally. You may not use a shield when using this weapon."
+        }},
+        {"Bracers" : {
+            "class" : "Armor",
+            "weilded" : "Any",
+            "defend" : "+1",
+            "use" : "Equipt",
+            "cost" : "550",
+            "equipt" : "!mail",
+            "description" : "This long, sturdy, wooden staff gives you the attack strength of 1 combat die. Because of it's length, the staff enables you to attack diagonally. You may not use a shield when using this weapon."
+        }},
+        {"Helmet" : {
+            "class" : "Armor",
+            "weilded" : "!Wizard",
+            "defend" : "+1",
+            "use" : "Equipt",
+            "cost" : "125",
+            "hand" : "None",
+            "description" : "This protective metal headpieve gives you 1 extra Defend die. May not be worn by the wizard."
+        }},
+        {"Helmet" : {
+            "class" : "Armor",
+            "weilded" : "!Wizard",
+            "defend" : "+1",
+            "use" : "Equipt",
+            "cost" : "125",
+            "hand" : "None",
+            "description" : "This protective metal headpieve gives you 1 extra Defend die. May not be worn by the wizard."
+        }},
+        {"Helmet" : {
+            "class" : "Armor",
+            "weilded" : "!Wizard",
+            "defend" : "+1",
+            "use" : "Equipt",
+            "cost" : "125",
+            "hand" : "None",
+            "description" : "This protective metal headpieve gives you 1 extra Defend die. May not be worn by the wizard."
+        }},
+        
+        {"Plate Mail" : {
+            "class" : "Armor",
+            "weilded" : "!Wizard",
+            "defend" : "+2",
+            "use" : "Equipt",
+            "cost" : "850",
+            "hand" : "None",
+            "description" : "This heavy metal armor gives you 2 extra Defend dice. However, because it is so heavy, you may only roll 1 red die for movement while wearing it. May be combined with the helmet and/or shield. May not be worn by the wizard."
+        }},
+        {"Chain Mail" : {
+            "class" : "Armor",
+            "weilded" : "!Wizard",
+            "defend" : "+1",
+            "use" : "Equipt",
+            "cost" : "500",
+            "hand" : "None",
+            "description" : "This light metal armor gives you 1 extra Defend dice.  May be combined with the helmet and/or shield. May not be worn by the wizard."
+        }},
+        {"Potion of Speed" : {
+            "class" : "Inventory",
+            "weilded" : "Any",
+            "use" : "Once",
+            "cost" : "200",
+            "hand" : "None",
+            "description" : "You may drink the potion at any time. It allows you to roll twice as many dice as usual the next time you move. The card is then discarded."
+        }},
+        {"Tool Kit" : {
+            "class" : "Inventory",
+            "weilded" : "Any",
+            "use" : "Always",
+            "cost" : "250",
+            "hand" : "None",
+            "description" : "This tool kit gives you a 50 percent chance to disarm any searched-for-and-found (but unsprung) trap. (See 'Action 6: Disarm a Trap' in the rulebook."
+        }}
+    ],
+    "Artifacts" : {
+        "Fortune's Longsword" : {
+            "class" : "Weapon",
+            "weilded" : "!Wizard",
+            "attack" : "3",
+            "use" : "Equipt",
+            "description" : "This long blade enables you to attack diagonally and gives you 3 Attack die. Once, per quest, the hero may use its power to reroll 1 Attack die. May not be used by the wizard."
+        },
+        "Ring of Fortitude" : {
+            "class" : "Inventory",
+            "weilded" : "Any",
+            "body" : "+1",
+            "use" : "Always",
+            "description" : "This magical ring raises a hero's Body Points by 1."
+        },
+        "Wizard's Cloak" : {
+            "class" : "Inventory",
+            "weilded" : "Wizard",
+            "defend" : "+1",
+            "use" : "Always",
+            "description" : "This magical cloak made of shimmery fabric is covered with mystical runes. It can be worn only by the wizard, giving them 1 extra defend die."
+        },
+        "Rod of Telekinesis" : {
+            "class" : "Inventory",
+            "weilded" : "Any",
+            "use" : "Quest",
+            "description" : "Once per quest, you may use this rod to trap a monster within magical force. A trapped monster misses it's next turn. The spell can be resisted immediately by the monster rolling 1 red die for each of their Mind Points. If a 6 is rolled, it resists the spell."
+        },
+        "Phantom Blade" : {
+            "class" : "Weapon",
+            "weilded" : "Any",
+            "attack" : "1",
+            "use" : "Quest",
+            "description" : "This ornate dagger gives you 1 Attack die. Once per quest, when you attack with the dagger your target may not defend themself as the weapon passes through their armor."
+        },
+        "Wand of Magic" : {
+            "class" : "Inventory",
+            "weilded" : "Magic",
+            "use" : "Always",
+            "description" : "This magical wand allows a hero to cast two separate and different spells on their turn instead of one single spell."
+        },
+        "Ring of Return" : {
+            "class" : "Inventory",
+            "weilded" : "Any",
+            "use" : "Once",
+            "description" : "When invoked, this magical ring returns all heroes that the ring wearer can see to the starting point of the quest. It can only be used once."
+        },
+        "Borin's Armor" : {
+            "class" : "Armor",
+            "armor" : "+2",
+            "weilded" : "!Wizard",
+            "use" : "Always",
+            "description" : "This magical suit of plate mail gives you 2 extra Defend dice. Unlike the normal plate mail, this mysterious, ultralight metal armor does not slow down its wearer. May be combined with the helmet and/or shield. May not be worn by the wizard."
+        },
+        "Spirit Blade" : {
+            "class" : "Weapon",
+            "attack" : "3/4",
+            "weilded" : "!Wizard",
+            "use" : "Equipt",
+            "description" : "This magical broadsword has an eerie handle of carved bone. When using it, roll 3 Attack dice, or roll 4 if attacking an undead monster (skeleton, zombie, or mummy). May not be used by the wizard."
+        },
+        "Talisman of Lore" : {
+            "class" : "Inventory",
+            "mind" : "+1",
+            "weilded" : "Any",
+            "use" : "Equipt",
+            "description" : "This magical medallion increases your Mind Points by 1 for as long as it is worn."
+        },
+        "Wizard's Staff" : {
+            "class" : "Weapon",
+            "attack" : "2",
+            "weilded" : "Wizard",
+            "use" : "Equipt",
+            "description" : "This long ancient staff glows with a soft blue light. It can be used only by the wizard, giving them 2 Attack dice and the ability to strike diagonally."
+        },
+        "Orc's Bane" : {
+            "class" : "Weapon",
+            "attack" : "2",
+            "weilded" : "Wizard",
+            "use" : "Equipt",
+            "description" : "When using this magical shortsword, you roll 2 Attack die. You May attack twice if attacking an orc. May not be used by the wizard."
+        },
+        "Spell Ring" : {
+            "class" : "Inventory",
+            "weilded" : "Any",
+            "use" : "Equipt",
+            "description" : "This ring enables a hero to cast one spell two times (not simultaneously). At the beginning of a quest, the wearer of this ring must declare which of their spells are stored in the ring."
+        },
+        "Elixir of Life" : {
+            "class" : "Inventory",
+            "body" : "full",
+            "mind" : "full",
+            "weilded" : "Wizard",
+            "use" : "Once",
+            "description" : "This small bottle of pearly liquid brings a dead hero back to life, restoring all of their Body and Mind Points. This potion can only be used once."
+        }
+    },
+    "Treasure" : [
+        {"Potion of Healing" : {
+            "class" : "Inventory",
+            "weilded" : "Any",
+            "use" : "Once"
+        }},
+        {"Potion of Healing" : {
+            "class" : "Inventory",
+            "weilded" : "Any",
+            "use" : "Once"
+        }},
+        {"Potion of Defense" : {
+            "class" : "Inventory",
+            "weilded" : "Any",
+            "use" : "Once"
+        }},
+        {"Heroic Brew" : {
+            "class" : "Inventory",
+            "weilded" : "Any",
+            "use" : "Once"
+        }},
+        {"Potion of Strength" : {
+            "class" : "Inventory",
+            "weilded" : "Any",
+            "use" : "Once"
+        }}
+    ]
+}

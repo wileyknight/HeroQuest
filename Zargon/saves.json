@@ -1,0 +1,59 @@
+{
+    "Forsaken Tunnels of Xel-Xor" : {
+        "player1" : {
+            "type" : "Elf Female",
+            "name" : "Red Scorpion",
+            "health" : 6,
+            "damage" : 4,
+            "defense" : 3,
+            "mind" : 5,
+            "gold" : 165,
+            "inventory" : ["Spirit Blade", "Talisman of Lore", "Potion of Healing", "Potion of Defense"],
+            "weapons" : ["Battle Axe"],
+            "armor" : ["Helmet"],
+            "spells" : ["Heal Body", "Pass Through Rock", "Rock Skin"],
+            "pos" : ""
+        },
+        "player2" : {
+            "type" : "Barbarian Male",
+            "name" : "Destruction Jr.",
+            "health" : 5,
+            "damage" : 3,
+            "defense" : 8,
+            "mind" : 2,
+            "gold" : 1020,
+            "inventory" : ["Tool Kit", "Potion of Healing"],
+            "weapons" : ["Battle Axe", "Broadsword", "Dagger"],
+            "armor" : ["Shield", "Borins Armor", "Helmet"],
+            "pos" : ""
+        },
+        "player3" : {
+            "type" : "Wizard",
+            "name" : "Twom",
+            "health" : 2,
+            "damage" : 2,
+            "defense" : 3,
+            "mind" : 6,
+            "gold" : 0,
+            "inventory" : ["Potion of Strength", "Spell Ring", "Elixir of Life"],
+            "weapons" : ["Wizards Staff"],
+            "armor" : ["Bracers"],
+            "spells" : ["Fire of Wrath", "Ball of Flame", "Courage", "Genie", "Swift Wind", "Tempest", "Veil of Mist", "Water of Healing", "Sleep"],
+            "pos" : ""
+        },
+        "player4" : {
+            "type" : "Bard",
+            "name" : "Bruce Springsteen",
+            "health" : 4,
+            "damage" : 2,
+            "defense" : 2,
+            "mind" : 4,
+            "gold" : 37,
+            "inventory" : ["Heroic Brew"],
+            "weapons" : ["Crossbow", "Orc's Bane"],
+            "armor" : ["Bracers"],
+            "spells" : ["Lullaby", "Healing Song", "Inspiring Tale"],
+            "pos" : ""
+        }
+    }
+}
