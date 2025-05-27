@@ -15,17 +15,17 @@ fpsClock = pygame.time.Clock()
 state = GameState(screen, pygame)
 runonce = False
 #Start connections
-#py_connection = Connection()
-#hqServer = RunServer(py_connection)
+py_connection = Connection()
+hqServer = RunServer(py_connection)
 print("Server is listening for incoming connections...\n")
 
 # Setup Room
 
 #buttonmap = ButtonMap(screen)
 
-#recieve_thread = threading.Thread(target=hqServer.connectPi, args=(state,))
-#recieve_thread.daemon = True
-#recieve_thread.start()
+recieve_thread = threading.Thread(target=hqServer.connectPi, args=(state,))
+recieve_thread.daemon = True
+recieve_thread.start()
 
 
 
@@ -51,4 +51,4 @@ while True:
 
     if runonce == False:
         runonce = True
-        #hqServer.connectPi(state)
+        hqServer.connectPi(state)

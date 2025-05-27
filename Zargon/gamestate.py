@@ -13,11 +13,11 @@ class GameState():
         self.screen = screen
         self.players = [None,]
         self.activePlayer = 1
-        #self.connection = Connection()
-        #self.server = RunServer(self.connection)
+        self.connection = Connection()
+        self.server = RunServer(self.connection)
         
         self.board = False
-        self.sendMessage = self.pretend
+        self.sendMessage = None
         self.characters = self.loadSave()
         self.showSplash = False  # change to True
         self.showChoose = False
