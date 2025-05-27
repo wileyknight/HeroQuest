@@ -1,6 +1,5 @@
 import pygame, json, sys
 from pygame._sdl2.touch import *
-from heroconnection import Connection
 from herostate import HeroState
 from herovars import HeroVars
 
