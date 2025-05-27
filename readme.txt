@@ -1,0 +1,7 @@
+Overview:
+This project is a companion for the HeroQuest boardgame system. There is no dice or combat system involved in the project. Most actions are handled by the players physically. The DM (Zargon) will be able to perform search actions, add and remove available spells, items and weapons from the hero's library. Create special per turn rules for cast spells such as walk thru walls.
+
+There are 3 projects that work as one. The Zargon folder contains the code for the Dungeon Master and is the controller for the game. The Hero folder contains the code for the players. There can be up to 4 players connected at any one time. Finally the Gameboard folder contains the code for the digital gamebaord and is where the physical game happens
+
+How it works:
+Main gamebaord running on a raspberry pi 4  that displays as a digital flat screen TV. Game pieces and actions take place on this board. It is the physical gamebaord for the game but gives the ability to make more immersive experiences by allowing for animations, sound and a changing landscape for every play. There is a touch screen for the DM running on a raspberry pi 5. The Zargon code runs here and will control the flow of the game. Each hero has a small touch screen running on a raspberry pi zero and will have the ability to control their character and see their available spells and items as well as show their character status. All of the raspberry pis will be connected to one another on a closed network by a switch.
